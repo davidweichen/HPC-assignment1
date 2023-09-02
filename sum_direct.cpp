@@ -11,7 +11,7 @@
 void 
 setup(int64_t N, uint64_t A[])
 {
-   printf(" inside sum_indirect problem_setup, N=%lld \n", N);
+   printf(" inside sum_direct problem_setup, N=%lld \n", N);
 }
 int64_t
 sum(int64_t N, uint64_t A[])
@@ -20,7 +20,7 @@ sum(int64_t N, uint64_t A[])
    for(int i=0;i<N;i++){
       sum+=i;
    }
-   printf(" inside sum_indirect perform_sum, N=%lld \n", N);
+   printf(" inside sum_direct perform_sum, N=%lld \n", N);
 
    return sum;
 }
