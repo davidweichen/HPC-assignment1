@@ -1,0 +1,6 @@
+/home/gator/Desktop/HPC-assignment1/build/CMakeFiles/benchmark.dir
+/home/gator/Desktop/HPC-assignment1/build/CMakeFiles/sum_direct.dir
+/home/gator/Desktop/HPC-assignment1/build/CMakeFiles/sum_vector.dir
+/home/gator/Desktop/HPC-assignment1/build/CMakeFiles/sum_indirect.dir
+/home/gator/Desktop/HPC-assignment1/build/CMakeFiles/edit_cache.dir
+/home/gator/Desktop/HPC-assignment1/build/CMakeFiles/rebuild_cache.dir

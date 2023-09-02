@@ -12,8 +12,7 @@ void
 setup(int64_t N, uint64_t A[])
 {
    for(int i=0;i<N;i++){
-      std::cout << "Please enter element "<< i+1 << ": ";
-      std::cin >> A[i];
+      A[i] = i;
    }
    std::cout <<" inside direct_sum problem_setup, N = " << N << std::endl;
 }
