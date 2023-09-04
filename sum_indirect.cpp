@@ -26,6 +26,7 @@ setup(int64_t N, uint64_t A[])
 int64_t
 sum(int64_t N, uint64_t A[])
 {
+    printf(" inside sum_indirect perform_sum, N=%lld \n", N);
     int64_t sum = 0;
     for(int i=0;i<N;i++){
          int j = A[i];
@@ -33,6 +34,6 @@ sum(int64_t N, uint64_t A[])
     }
    
    return sum;
-   printf(" inside sum_indirect perform_sum, N=%lld \n", N);
+   
 }
 

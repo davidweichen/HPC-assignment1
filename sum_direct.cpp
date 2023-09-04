@@ -16,12 +16,12 @@ setup(int64_t N, uint64_t A[])
 int64_t
 sum(int64_t N, uint64_t A[])
 {
+   printf(" inside sum_direct perform_sum, N=%lld \n", N);
    int64_t sum=0;
    for(int i=0;i<N;i++){
       sum+=i;
    }
    
    return sum;
-   printf(" inside sum_direct perform_sum, N=%lld \n", N);
 }
 
