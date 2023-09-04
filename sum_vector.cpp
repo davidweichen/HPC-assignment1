@@ -11,7 +11,7 @@
 void 
 setup(int64_t N, uint64_t A[])
 {
-   for(int i=0;i<N;i++){
+   for( int64_t i=0;i<N;i++){
       A[i] = i;
    }
    printf(" inside sum_vector problem_setup, N=%lld \n", N);
