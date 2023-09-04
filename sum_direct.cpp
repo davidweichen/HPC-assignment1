@@ -20,8 +20,8 @@ sum(int64_t N, uint64_t A[])
    for(int i=0;i<N;i++){
       sum+=i;
    }
-   printf(" inside sum_direct perform_sum, N=%lld \n", N);
-
+   
    return sum;
+   printf(" inside sum_direct perform_sum, N=%lld \n", N);
 }
 

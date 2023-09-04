@@ -31,7 +31,8 @@ sum(int64_t N, uint64_t A[])
          int j = A[i];
          sum+=A[j];
     }
-   printf(" inside sum_indirect perform_sum, N=%lld \n", N);
+   
    return sum;
+   printf(" inside sum_indirect perform_sum, N=%lld \n", N);
 }
 
