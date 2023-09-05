@@ -11,14 +11,9 @@
 void 
 setup(int64_t N, uint64_t A[])
 {
-   for (int64_t i = 0; i < N; ++i) {
-        A[i] = i;
-    }
    for (int i = 0; i < N; ++i) {
         int j = lrand48() % N;
-        int temp = A[i];
-        A[i] = A[j];
-        A[j] = temp;
+        A[i] = j;
     }
    printf(" inside sum_indirect problem_setup, N=%lld \n", N);
 }
