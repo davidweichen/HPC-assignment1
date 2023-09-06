@@ -20,7 +20,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-fname = "cp1-flop.csv"
+fname = "cp1-mem.csv"
 df = pd.read_csv(fname, comment="#")
 print(df)
 
@@ -57,7 +57,7 @@ plt.plot(code3_time, "g-^")
 #plt.yscale("log")
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("runtime")
+plt.ylabel("MFLOP/s")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
 plt.legend(varNames, loc="best")
