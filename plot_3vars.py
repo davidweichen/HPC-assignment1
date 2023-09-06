@@ -57,7 +57,7 @@ plt.plot(code3_time, "g-^")
 #plt.yscale("log")
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("MFLOP/s")
+plt.ylabel("%memory bandwidth")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
 plt.legend(varNames, loc="best")
