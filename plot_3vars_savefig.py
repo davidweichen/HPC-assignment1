@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 
 plot_fname = "myplot.png"
 
-fname = "cp1.csv"
+fname = "cp1-flop.csv"
 df = pd.read_csv(fname, comment="#")
 print(df)
 
