@@ -20,7 +20,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-fname = "sample_data_3vars.csv"
+fname = "cp1.csv"
 df = pd.read_csv(fname, comment="#")
 print(df)
 
